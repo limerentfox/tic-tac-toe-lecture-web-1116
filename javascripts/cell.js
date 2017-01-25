@@ -6,6 +6,6 @@ class Cell {
   }
 
   build(){
-    return `<div id=${this.index} class='cell'>${this.play}</div>`
+    return `<div id=${this.index} class='cell col-m-4'>${this.play}</div>`
   }
 }
